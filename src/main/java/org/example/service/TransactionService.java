@@ -1,10 +1,4 @@
-/*
- account.getBalance().add(amount) — BigDecimal mein hum normal + use nahi kar sakte (jaise balance + amount nahi likh sakte), isके liye special method .add() use karna padta hai — ye BigDecimal ka rule hai
-account.setBalance(...) — naya balance (purana + deposit amount) wapas account mein set kar rahe hain
-accountRepository.save(account) — updated balance ko database mein save kar rahe hain (dhyan do — yahan save() update ki tarah kaam karta hai kyunki account ki id already exist karti hai, naya record nahi banega)
-LocalDateTime.now() — current date-time nikaal raha hai, transaction ka time record karne ke liye
-Poora flow: pehle balance update karo → fir transaction ka record banao (history ke liye) → dono ko save karo
-*/
+
 
 package org.example.service;
 

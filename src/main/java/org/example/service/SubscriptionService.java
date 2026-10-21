@@ -1,10 +1,5 @@
 
-/*
-LocalDate.now().plusMonths(1) — aaj ki date lo aur usme 1 mahina add kar do — ye "next due date" automatically calculate ho raha hai
-s.getNextDueDate().isBefore(LocalDate.now()) — check kar raha hai "kya due date aaj se pehle aa chuki hai" — matlab payment due ho chuka hai
-s.getNextDueDate().isEqual(LocalDate.now()) — ya "kya due date aaj hi hai"
-Subscription::isActive — ye ek method reference hai, chhota shortcut likhne ka tarika .filter(s -> s.isActive()) likhne ke bajaye — dono ka matlab same hai, bas ye chhota syntax hai
-*/
+
 
 
 package org.example.service;

@@ -1,6 +1,4 @@
-/*
-Ye kya karta hai: poore project mein jahan bhi RuntimeException throw hoti hai (jaise "Customer not found", "Account not found"), ye automatically usko clean JSON error mein convert kar dega, response 500 ki jagah 400 dega — professional dikhta hai.
-*/
+
 
 package org.example.exception;
 

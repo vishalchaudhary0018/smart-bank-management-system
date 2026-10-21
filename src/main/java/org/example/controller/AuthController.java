@@ -1,9 +1,3 @@
-/*
-LoginRequest — ek simple DTO (Data Transfer Object), jisse humein sirf email-password chahiye, poora Customer object nahi
-.filter(c -> c.getEmail().equals(...)).findFirst() — saare customers mein se email match karne wala dhundh raha hai
-passwordEncoder.matches(plainPassword, encryptedPassword) — ye check karta hai "jo password type kiya (plain), kya wo encrypted wale se match karta hai" — encrypt karke compare nahi karte, ye method khud handle karta hai
-jwtUtil.generateToken(...) — agar sab sahi hai, to token generate karke return kar deta hai
-*/
 
 package org.example.controller;
 

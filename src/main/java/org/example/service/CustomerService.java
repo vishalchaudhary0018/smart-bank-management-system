@@ -1,9 +1,4 @@
 
-/*
-@Service — ye batata hai Spring ko "ye class business logic wali hai", aur Spring isko automatically manage karta hai (memory mein ek object bana ke rakh leta hai jise use kar sako)
-@Autowired — ye Spring ka Dependency Injection concept hai. Normally tumhe khud new CustomerRepository() likh ke object banana padta, lekin @Autowired likhne se Spring khud automatically ye object provide kar deta hai tumhare liye — bas maang lo, mil jayega
-registerCustomer(Customer customer) — ye method ek Customer object leta hai (jo humne pehle banaya tha) aur usko customerRepository.save() ke through database mein save kar deta hai, aur saved customer wapas return karta hai (jisme ab id bhi generate ho chuki hogi)
- */
 package org.example.service;
 
 

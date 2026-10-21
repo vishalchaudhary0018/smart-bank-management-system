@@ -1,13 +1,4 @@
 
-/*
-@RestController — ye batata hai Spring ko "ye class API endpoints handle karegi, aur jo bhi return karegi wo automatically JSON mein convert ho jayega"
-@RequestMapping("/api/customers") — ye is poore controller ka base URL set kar raha hai. Matlab is class ke andar jitne bhi methods honge, sabka URL /api/customers se start hoga
-@PostMapping("/register") — ye batata hai "jab koi POST request /api/customers/register pe aaye, to ye method chalao". (POST matlab naya data bhejna/create karna — jaise form submit karna)
-@RequestBody Customer customer — iska matlab hai jo bhi JSON data client bhejega (naam, email, password), wo automatically ek Customer object mein convert ho jayega
-
-Poora URL banega: http://localhost:8081/api/customers/register
-
-*/
 package org.example.controller;
 
 import org.example.entity.Customer;
